@@ -1,0 +1,60 @@
+# .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.env/
+.venv/
+ENV/
+env/
+venv/
+.env.bak/
+*.env
+
+# pre-commit and ruff cache
+.ruff_cache/
+.pre-commit-config.yaml
+
+# dotenv
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# VSCode files
+.vscode/
+
+# Tests
+tests/
+
+# JSON files
+*.json

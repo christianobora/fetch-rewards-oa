@@ -60,9 +60,3 @@ A FastAPI-based application for managing user points, including adding, spending
     uvicorn app.main:app --reload
    ```
 3. Access the API documentation at `http://localhost:8000/docs`.
-
-## Running Tests
-1. Run the tests:
-   ```bash
-   pytest tests
-   ```

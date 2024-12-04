@@ -1,0 +1,14 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+I chose to use Python and FastAPI for this exercise due to the ease of use and the development time with them. I have been working with FastAPI a lot recently, so I knew I would be able to build the API quickly, and efficiently. I used pytest for internal testing to confirm that my exercise met the requirements and worked properly.
+
+2. What are the advantages and disadvantages of your solution?
+
+Scalability: I designed it to handle the addition + spending of points in a FIFO order, which will allow it to effectively scale in the future.
+Async Support: FastAPI and asyncio allow for asynchronous request handling, which will improve the performance and aid in the scalability of the API.
+Automatic Documentation: FastAPI automatically generates the documentation, making it easier for other developers to understand the API.
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+A favorite project has been my work with FRIS Solutions, LLC, a Software as a Service (SAAS) company I founded in June 2023. The company focuses on providing high-quality, scaled automation solutions to various software companies. 
+One of the most challenging aspects of this project was designing and implementing a scalable backend API architecture that could handle significant load while ensuring performance. 
+I had to consider both technical scalability and the operational needs of supporting a growing customer base, which led to the development of a client management system to streamline onboarding and support processes. 
+This project challenged me to apply my skills in building production-grade software and managing a service at scale, while also balancing the business aspects of running a company.
